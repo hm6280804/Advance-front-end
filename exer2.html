@@ -1,0 +1,41 @@
+<style>
+    *{
+        background-color: black;
+    }
+    .request{
+        background-color: black;
+        color: white;
+        border: 10px solid white;
+        width: 120px;
+        height: 60px;
+    }
+
+.amazon-btn {
+  background-color: rgb(255, 216, 20); /* Amazon yellow */
+  color: #111; /* Dark text */
+  border: none;
+  border-radius: 50px; /* Fully rounded */
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: all 0.2s ease;
+}
+
+/* Hover effect like Amazon */
+.amazon-btn:hover {
+  background-color: rgb(247, 202, 0); /* Slightly darker yellow */
+  box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+  transform: translateY(-1px);
+}
+
+/* Focus outline */
+.amazon-btn:focus {
+  outline: 2px solid #f90;
+  outline-offset: 3px;
+}
+</style>
+
+<button class="request">Request Now</button>
+<button class="amazon-btn">Add to Cart</button>
